@@ -1,0 +1,4 @@
+rootProject.name = 'TP-JPA'
+include 'src:main:entidades'
+findProject(':src:main:entidades')?.name = 'entidades'
+
